@@ -32,6 +32,8 @@
     - 1 <= maxSize, x, k <= 1000
     - 0 <= val <= 100
     - At most 1000 calls will be made to each method of increment, push and pop each separately.
+
+    Level: Medium
 */
 
 class CustomStack {
