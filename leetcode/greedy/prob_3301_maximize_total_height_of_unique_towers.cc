@@ -1,5 +1,4 @@
 /*
-  Level: Medium
   You are given an array maximumHeight, where maximumHeight[i] denotes the maximum height the ith tower can be assigned.
   Your task is to assign a height to each tower so that:
     - The height of the ith tower is a positive integer and does not exceed maximumHeight[i].
@@ -25,10 +24,15 @@
   Constraints:
   - 1 <= maximumHeight.length <= 105
   - 1 <= maximumHeight[i] <= 109
+
+  Level: Medium
 */
 
 class Solution {
   public:
+    // T: O(n log n), S: O(log n)
+    // Sorting in C++ is a hybrid of insertion sort, quicksort and mergesort,
+    // taking O(n log n) time and O(log n) space.
     long long maximumTotalSum(vector<int>& maximumHeight) {
       long long res = 0;
       sort(maximumHeight.begin(), maximumHeight.end(), greater<int>());
