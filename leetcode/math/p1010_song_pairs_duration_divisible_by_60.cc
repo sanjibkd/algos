@@ -19,6 +19,8 @@
   Constraints:
     1 <= time.length <= 6 * 104
     1 <= time[i] <= 500
+
+  Level: Medium
 */
 
 // T: O(n), S: O(1)
