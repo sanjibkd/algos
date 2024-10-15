@@ -28,6 +28,8 @@
   Constraints:
     1 <= n == s.length <= 105
     s[i] is either '0' or '1'.
+
+  Level: Medium
 */
 // T: O(n), S: O(1)
 // Greedy, cumulative sum
